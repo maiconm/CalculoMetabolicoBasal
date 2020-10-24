@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:text="Altura"/>
     <EditText
-        android:inputType="phone"
+        android:inputType="number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Altura"
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:text="Peso"/>
     <EditText
-        android:inputType="phone"
+        android:inputType="number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Peso"
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:text="Idade"/>
     <EditText
-        android:inputType="phone"
+        android:inputType="number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Idade"
@@ -62,22 +62,26 @@
         android:id="@+id/rgSexo"
         android:orientation="horizontal">
         <RadioButton
+            android:id="@+id/rbMasculino"
             android:checked="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Masculino" />
         <RadioButton
+            android:id="@+id/rbFeminino"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Feminino" />
     </RadioGroup>
 
     <CheckBox
+        android:id="@+id/toJoules"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Apresentar resultado em Joules" />
 
     <ImageButton
+        android:id="@+id/calculate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/baseline_calculate_24"
